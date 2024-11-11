@@ -1,0 +1,10 @@
+.card_moveis {
+  .card_moveis_text {
+    display: none;
+  }
+  &:hover {
+    .card_moveis_text {
+      display: flex;
+    }
+  }
+}
